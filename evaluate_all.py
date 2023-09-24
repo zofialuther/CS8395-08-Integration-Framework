@@ -21,11 +21,15 @@ def main(model_name):
     results = []  # To store scores for each benchmark
     
     for benchmark in os.listdir("benchmarks"):
-        print(benchmark)
         # Dynamically import the run_benchmark function from the benchmark's module
         module_name = f"benchmarks.{benchmark}.run"
         benchmark_module = importlib.import_module(module_name)
+
+        print(os.getcwd())
+        os.chdir(f'benchmarks/{benchmark}/')
         score = benchmark_module.run_benchmark(model_wrapper)
+        os.chdir('../../')
+        print(os.getcwd())
         
         results.append((benchmark, score))
     
