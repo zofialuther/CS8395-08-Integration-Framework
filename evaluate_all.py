@@ -1,6 +1,7 @@
 import os
 import argparse
 import csv
+import importlib
 from wrappers.model_wrapper import ModelWrapper, GPT2Wrapper, GPT4Wrapper  # Assuming these are the available wrappers
 
 def load_model(model_name):
@@ -20,8 +21,10 @@ def main(model_name):
     results = []  # To store scores for each benchmark
     
     for benchmark in os.listdir("benchmarks"):
+        print(benchmark)
         # Dynamically import the run_benchmark function from the benchmark's module
-        benchmark_module = __import__(f"benchmarks.{benchmark}.run", fromlist=['run_benchmark'])
+        module_name = f"benchmarks.{benchmark}.run"
+        benchmark_module = importlib.import_module(module_name)
         score = benchmark_module.run_benchmark(model_wrapper)
         
         results.append((benchmark, score))
