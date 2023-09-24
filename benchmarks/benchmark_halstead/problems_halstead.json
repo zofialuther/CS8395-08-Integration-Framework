@@ -1,0 +1,602 @@
+[
+    {
+        "problem_id": "3c2279b4-5ad2-45f4-8c8c-e700541e645b",
+        "description": "Given an integer n (1 \u2264 n \u2264 1000), calculate the sum of the first n prime numbers and then return the sum of the digits of that result.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the digits of the sum of the first n prime numbers."
+    },
+    {
+        "problem_id": "3bc1af8d-a03d-44bb-81bb-b98ce642fa5d",
+        "description": "Given an integer n (1 \u2264 n \u2264 10000), find the nth Fibonacci number. Then, return the sum of its digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the digits of the nth Fibonacci number."
+    },
+    {
+        "problem_id": "23980309-3f2f-4862-b3ee-c054af6969b0",
+        "description": "Given an integer n (1 \u2264 n \u2264 500), calculate the sum of the first n triangular numbers. Return the product of its digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the digits of the sum of the first n triangular numbers."
+    },
+    {
+        "problem_id": "42628647-4b5e-4c70-9ab5-151b5a6bbe30",
+        "description": "Given a list of integers, find the largest continuous subarray sum. Return the number of even digits in that sum.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the number of even digits in the largest continuous subarray sum."
+    },
+    {
+        "problem_id": "36fc5e92-3210-4d64-bffd-4e113aa7a019",
+        "description": "Given an integer n (1 \u2264 n \u2264 100), find the nth number in the sequence defined as: a(n) = a(n-1) * a(n-2) + 1, a(1) = 1, a(2) = 2. Return the sum of its digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the digits of the nth number in the sequence."
+    },
+    {
+        "problem_id": "b12a198f-56c9-446a-b211-cc728bc2cae7",
+        "description": "Given an integer n (1 \u2264 n \u2264 200), calculate the product of the first n even numbers. Return the sum of its odd digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the odd digits of the product of the first n even numbers."
+    },
+    {
+        "problem_id": "80327d99-409c-4dee-aaef-93ad23655ccc",
+        "description": "Given a list of integers, find the smallest continuous subarray product. Return the number of prime digits in that product.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the number of prime digits in the smallest continuous subarray product."
+    },
+    {
+        "problem_id": "2465ec5a-e1b1-4659-bc84-19c941ef95b2",
+        "description": "Given an integer n (1 \u2264 n \u2264 150), determine the nth number in the sequence defined as: a(n) = 2*a(n-1) - a(n-2) + 3, a(1) = 2, a(2) = 5. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "b7005594-5c10-4c62-8aa1-6508081c000b",
+        "description": "Given an integer n (1 \u2264 n \u2264 300), calculate the sum of the squares of the first n odd numbers. Return the product of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the even digits of the sum of the squares of the first n odd numbers."
+    },
+    {
+        "problem_id": "6c4330dd-ee36-4117-833d-a8506b75e45f",
+        "description": "Given a list of positive integers, find the largest sum obtained by adding exactly three numbers. Return the number of odd digits in that sum.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the number of odd digits in the largest sum of three numbers."
+    },
+    {
+        "problem_id": "3592e836-7869-404b-8dda-f2ae64c45ce4",
+        "description": "Given an integer n (1 \u2264 n \u2264 120), find the nth number in the sequence defined as: a(n) = 3*a(n-1) + a(n-2) - 2, a(1) = 3, a(2) = 8. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "058ccb73-9049-4edc-9509-38e16980ebe8",
+        "description": "Given an integer n (1 \u2264 n \u2264 400), compute the sum of the cubes of the first n even numbers. Return the sum of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the prime digits of the sum of the cubes of the first n even numbers."
+    },
+    {
+        "problem_id": "2d4863f3-eef0-447b-bea3-40bf36b06976",
+        "description": "Given a list of integers, determine the smallest product obtained by multiplying exactly four numbers. Return the number of prime digits in that product.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the number of prime digits in the smallest product of four numbers."
+    },
+    {
+        "problem_id": "6e428d01-9964-4353-961a-0b657f4d7416",
+        "description": "Given an integer n (1 \u2264 n \u2264 140), determine the nth number in the sequence defined as: a(n) = 2*a(n-2) - a(n-1) + 5, a(1) = 4, a(2) = 7. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "31baecf4-5b57-4087-af28-e4b1eb7177cc",
+        "description": "Given an integer n (1 \u2264 n \u2264 450), calculate the product of the squares of the first n prime numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the product of the squares of the first n prime numbers."
+    },
+    {
+        "problem_id": "feeea925-3202-4bb3-8732-9d4d5fc7ca37",
+        "description": "Given a list of positive integers, determine the largest difference between any two numbers. Return the number of even digits in that difference.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the number of even digits in the largest difference between any two numbers."
+    },
+    {
+        "problem_id": "53bc74e7-fbc4-4b3b-bdf6-a00a0188e270",
+        "description": "Given an integer n (1 \u2264 n \u2264 160), find the nth number in the sequence defined as: a(n) = 3*a(n-2) - 2*a(n-1) + 6, a(1) = 5, a(2) = 8. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "cccd492b-6ff7-4adf-b5ea-25900168e103",
+        "description": "Given an integer n (1 \u2264 n \u2264 500), compute the sum of the cubes of the first n even numbers. Return the product of its odd digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the odd digits of the sum of the cubes of the first n even numbers."
+    },
+    {
+        "problem_id": "b28a3e1e-16db-468e-a347-6f14a8ab4721",
+        "description": "Given a list of integers, determine the second largest element in the list. Return the sum of the digits of this element.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the sum of the digits of the second largest element in the list."
+    },
+    {
+        "problem_id": "c8ee8395-bfef-4bda-9b08-950c0822cd54",
+        "description": "Given an integer n (1 \u2264 n \u2264 170), identify the nth number in the sequence defined as: a(n) = 4*a(n-1) - a(n-2) + 7, a(1) = 6, a(2) = 9. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "741ddfb5-c024-49cd-9308-98ea221e98cd",
+        "description": "Given an integer n (1 \u2264 n \u2264 550), calculate the product of the squares of the first n odd numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the product of the squares of the first n odd numbers."
+    },
+    {
+        "problem_id": "c9114ca9-e25c-4062-84f8-799f58334d3d",
+        "description": "Given a list of positive integers, find the smallest element in the list that is greater than the average of all elements. Return the product of its digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the product of the digits of the smallest element greater than the average of all elements."
+    },
+    {
+        "problem_id": "c3c1ce8a-ca2a-4c87-b657-a59ec1704cc4",
+        "description": "Given an integer n (1 \u2264 n \u2264 180), identify the nth number in the sequence defined as: a(n) = 5*a(n-2) - 3*a(n-1) + 8, a(1) = 7, a(2) = 10. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "c6d49df8-0ce1-4db3-8641-914cf598899e",
+        "description": "Given an integer n (1 \u2264 n \u2264 600), calculate the sum of the fourth powers of the first n prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the fourth powers of the first n prime numbers."
+    },
+    {
+        "problem_id": "ae301265-d8fc-4cde-bd15-cde4de61ef6d",
+        "description": "Given a list of integers, determine the second smallest element in the list. Return the sum of the digits of this element squared.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the sum of the digits of the square of the second smallest element in the list."
+    },
+    {
+        "problem_id": "4b0d3d3a-7b74-4633-a965-e05e49e228ab",
+        "description": "Given an integer n (1 \u2264 n \u2264 190), determine the nth number in the sequence defined as: a(n) = 6*a(n-1) - 2*a(n-2) + 9, a(1) = 8, a(2) = 11. Return its first digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the first digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "c403fca7-e395-45f5-b6e5-d894962544ac",
+        "description": "Given an integer n (1 \u2264 n \u2264 650), calculate the sum of the fifth powers of the first n even numbers. Return the product of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the even digits of the sum of the fifth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "46edba7f-63ff-4456-bc88-d04f4533bdba",
+        "description": "Given a list of integers, determine the number of elements that are greater than the median of the list. Return the sum of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the sum of the digits of the count of elements greater than the median."
+    },
+    {
+        "problem_id": "8cf4a714-d604-457b-9b88-cfe2a2230ffc",
+        "description": "Given an integer n (1 \u2264 n \u2264 200), determine the nth number in the sequence defined as: a(n) = 7*a(n-1) - 3*a(n-2) + 10, a(1) = 9, a(2) = 12. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "1359ea7c-a1cb-4963-b252-0b0c6d666b45",
+        "description": "Given an integer n (1 \u2264 n \u2264 700), compute the sum of the fourth powers of the first n odd prime numbers. Return the sum of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the prime digits of the sum of the fourth powers of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "c91c94f3-4f35-4be4-a834-474269a25496",
+        "description": "Given a list of integers, determine the product of the largest and smallest elements in the list. Return the sum of the digits of this product.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the sum of the digits of the product of the largest and smallest elements in the list."
+    },
+    {
+        "problem_id": "abc2b20c-d50e-48dd-bc2c-bc46b0ea4e27",
+        "description": "Given an integer n (1 \u2264 n \u2264 210), identify the nth number in the sequence defined as: a(n) = 8*a(n-1) - 4*a(n-2) + 11, a(1) = 10, a(2) = 13. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "a9550f62-a637-4a48-b805-26f2e33b0e76",
+        "description": "Given an integer n (1 \u2264 n \u2264 750), compute the sum of the fifth powers of the first n numbers in the Fibonacci sequence. Return the product of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the even digits of the sum of the fifth powers of the first n numbers in the Fibonacci sequence."
+    },
+    {
+        "problem_id": "98eb469f-c6ae-477f-819f-db07d6921609",
+        "description": "Given a list of positive integers, determine the number of elements that are less than the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the product of the digits of the count of elements less than the median."
+    },
+    {
+        "problem_id": "4a6418a3-cb83-4a6a-a1e2-4cfea9efac99",
+        "description": "Given an integer n (1 \u2264 n \u2264 230), determine the nth number in the sequence defined as: a(n) = 9*a(n-2) - 5*a(n-1) + 12, a(1) = 11, a(2) = 14. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "9a0d368d-bfe6-46ae-8d27-8c3d1e5a1951",
+        "description": "Given an integer n (1 \u2264 n \u2264 800), compute the sum of the sixth powers of the first n even numbers. Return the sum of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the prime digits of the sum of the sixth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "1ecd8e42-ac89-4f75-8ab4-e04ec4684137",
+        "description": "Given a list of integers, find the element that appears exactly once in the list. Return the product of the digits of this element.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the element that appears exactly once."
+    },
+    {
+        "problem_id": "99c24df1-98b0-4d91-9f7e-f6842642b062",
+        "description": "Given an integer n (1 \u2264 n \u2264 250), determine the nth number in the sequence defined as: a(n) = 10*a(n-1) - 6*a(n-2) + 13, a(1) = 12, a(2) = 15. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "563e6153-69a4-447d-90de-bbccab413cf8",
+        "description": "Given an integer n (1 \u2264 n \u2264 850), compute the sum of the seventh powers of the first n odd numbers. Return the product of its odd digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the odd digits of the sum of the seventh powers of the first n odd numbers."
+    },
+    {
+        "problem_id": "3916586a-19bb-4adb-bd33-c0ad57a62265",
+        "description": "Given a list of positive integers, find the element that appears exactly twice in the list. Return the sum of the digits of this element squared.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the square of the element that appears exactly twice."
+    },
+    {
+        "problem_id": "cea11fe4-d840-4d0f-b056-3485bfc71f14",
+        "description": "Given an integer n (1 \u2264 n \u2264 270), determine the nth number in the sequence defined as: a(n) = 11*a(n-1) - 7*a(n-2) + 14, a(1) = 13, a(2) = 16. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "84c80196-cf12-4037-86fc-6697328cebd3",
+        "description": "Given an integer n (1 \u2264 n \u2264 900), compute the sum of the eighth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the eighth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "b7ab9275-bff7-4ead-ac82-5f76af05bc2c",
+        "description": "Given a list of integers, find the median element in the list. Return the product of the digits of this element.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the median element in the list."
+    },
+    {
+        "problem_id": "f6691bc0-8491-424f-a715-8e7d38f30230",
+        "description": "Given an integer n (1 \u2264 n \u2264 290), determine the nth number in the sequence defined as: a(n) = 12*a(n-1) - 8*a(n-2) + 15, a(1) = 14, a(2) = 17. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "230b8b86-6e94-4f68-bc19-04c27c1c99bc",
+        "description": "Given an integer n (1 \u2264 n \u2264 950), compute the sum of the ninth powers of the first n odd numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the ninth powers of the first n odd numbers."
+    },
+    {
+        "problem_id": "b815cab5-0754-46a0-8bdb-8e54ac0e25ed",
+        "description": "Given a list of positive integers, find the number of elements that are both even and greater than the median of the list. Return the sum of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the count of even elements greater than the median."
+    },
+    {
+        "problem_id": "343cedb4-d291-4ae9-afb3-e180451c2dc4",
+        "description": "Given an integer n (1 \u2264 n \u2264 310), determine the nth number in the sequence defined as: a(n) = 13*a(n-1) - 9*a(n-2) + 16, a(1) = 15, a(2) = 18. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "87268fdf-e23e-4018-b3c9-ca5ab96325af",
+        "description": "Given an integer n (1 \u2264 n \u2264 1000), compute the sum of the tenth powers of the first n even numbers. Return the sum of its odd digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the odd digits of the sum of the tenth powers of the first n even prime numbers."
+    },
+    {
+        "problem_id": "0af34675-f85e-47ae-a210-c4a9d8113a49",
+        "description": "Given a list of integers, find the number of elements that are both odd and less than the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of odd elements less than the median."
+    },
+    {
+        "problem_id": "d31132e6-a3f5-49a9-81fe-3625b57983ee",
+        "description": "Given an integer n (1 \u2264 n \u2264 330), determine the nth number in the sequence defined as: a(n) = 14*a(n-1) - 10*a(n-2) + 17, a(1) = 16, a(2) = 19. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "9c6b2cb6-fa88-44ee-8243-869ea271ff83",
+        "description": "Given an integer n (1 \u2264 n \u2264 1050), compute the sum of the eleventh powers of the first n odd numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the eleventh powers of the first n odd numbers."
+    },
+    {
+        "problem_id": "6bde88ad-5070-4d39-9e2b-db3ced2134f7",
+        "description": "Given a list of positive integers, find the number of elements that are even and greater than twice the median of the list. Return the sum of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the count of even elements greater than twice the median."
+    },
+    {
+        "problem_id": "bde3eee5-1648-4086-9b91-e0faab7ec1ee",
+        "description": "Given an integer n (1 \u2264 n \u2264 350), determine the nth number in the sequence defined as: a(n) = 15*a(n-1) - 11*a(n-2) + 18, a(1) = 17, a(2) = 20. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "b00a2d4b-0807-4d96-bcc5-41fd10b2490e",
+        "description": "Given an integer n (1 \u2264 n \u2264 1100), compute the sum of the twelfth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the twelfth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "e72c3525-0c3f-4aff-a218-dd358d6faa7c",
+        "description": "Given a list of integers, find the number of elements that are odd and less than half of the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of odd elements less than half the median."
+    },
+    {
+        "problem_id": "79049b9d-96e3-4335-99ce-fa827e88cdf7",
+        "description": "Given an integer n (1 \u2264 n \u2264 370), determine the nth number in the sequence defined as: a(n) = 16*a(n-1) - 12*a(n-2) + 19, a(1) = 18, a(2) = 21. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "978b2123-a8c5-48fe-a694-621243f2ed26",
+        "description": "Given an integer n (1 \u2264 n \u2264 1150), compute the sum of the third powers of the first n odd prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the third powers of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "c898aa35-4cdd-4c41-8813-69ddfda95e8e",
+        "description": "Given a list of positive integers, find the element that appears exactly thrice in the list. Return the sum of the digits of this element squared.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the square of the element that appears exactly thrice."
+    },
+    {
+        "problem_id": "eaf7c62b-e372-4631-8491-662b90929d67",
+        "description": "Given an integer n (1 \u2264 n \u2264 390), determine the nth number in the sequence defined as: a(n) = 17*a(n-1) - 13*a(n-2) + 20, a(1) = 19, a(2) = 22. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "15e7a0ff-6a64-42b1-8ac9-cabcb9c5b258",
+        "description": "Given an integer n (1 \u2264 n \u2264 1200), compute the sum of the fourteenth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the fourteenth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "a206117a-e66c-47ea-8164-4cb61d4d8606",
+        "description": "Given a list of integers, find the number of elements that are even and less than triple the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of even elements less than triple the median."
+    },
+    {
+        "problem_id": "4a6d4878-35c9-4978-b0e0-3dd586a620e0",
+        "description": "Given an integer n (1 \u2264 n \u2264 410), determine the nth number in the sequence defined as: a(n) = 18*a(n-1) - 14*a(n-2) + 21, a(1) = 20, a(2) = 23. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "41490273-310f-4f1b-9553-f0f1d3e06323",
+        "description": "Given an integer n (1 \u2264 n \u2264 1250), compute the sum of the fifteenth powers of the first n odd prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the fifteenth powers of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "d4521582-afec-47a6-bf46-70e44e41f038",
+        "description": "Given a list of positive integers, find the element that appears an even number of times in the list. Return the sum of the digits of this element squared.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the square of the element that appears an even number of times."
+    },
+    {
+        "problem_id": "93df3694-e633-4c90-84ef-e633b76186ed",
+        "description": "Given an integer n (1 \u2264 n \u2264 430), determine the nth number in the sequence defined as: a(n) = 19*a(n-1) - 15*a(n-2) + 22, a(1) = 21, a(2) = 24. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "9aa484d8-8124-4739-b339-3384d185fe7b",
+        "description": "Given an integer n (1 \u2264 n \u2264 1300), compute the sum of the sixth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the sixth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "276c7142-2eda-4e4c-86b2-08500d535cc3",
+        "description": "Given a list of integers, find the number of elements that are odd and greater than four times the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of odd elements greater than four times the median."
+    },
+    {
+        "problem_id": "2e2f27e9-16cb-435c-8e93-735712962e43",
+        "description": "Given an integer n (1 \u2264 n \u2264 450), determine the nth number in the sequence defined as: a(n) = 20*a(n-1) - 16*a(n-2) + 23, a(1) = 22, a(2) = 25. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "9f340bc0-f030-445c-bf93-b7b30aef4223",
+        "description": "Given an integer n (1 \u2264 n \u2264 1350), compute the sum of the second powers of the first n odd prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the second powers of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "5457070e-f978-4a3e-bf5a-20d358fe69f9",
+        "description": "Given a list of positive integers, find the element that appears exactly four times in the list. Return the sum of the digits of this element cubed.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the cube of the element that appears exactly four times."
+    },
+    {
+        "problem_id": "5ae667be-fb55-4f63-94da-1a920e677c44",
+        "description": "Given an integer n (1 \u2264 n \u2264 470), determine the nth number in the sequence defined as: a(n) = 21*a(n-1) - 17*a(n-2) + 24, a(1) = 23, a(2) = 26. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "8bffba85-1857-4797-9a0a-b8c4a6bb8874",
+        "description": "Given an integer n (1 \u2264 n \u2264 1400), compute the sum of the eighth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the eighth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "d5d61bb6-c8e3-4aa2-9f9d-62f9f889a0ba",
+        "description": "Given a list of integers, find the number of elements that are odd and less than five times the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of odd elements less than five times the median."
+    },
+    {
+        "problem_id": "257db52b-a8c3-440e-a4f0-702130893655",
+        "description": "Given an integer n (1 \u2264 n \u2264 490), determine the nth number in the sequence defined as: a(n) = 22*a(n-1) - 18*a(n-2) + 25, a(1) = 24, a(2) = 27. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "59111ace-3be7-46bc-b0a5-75108a754392",
+        "description": "Given an integer n (1 \u2264 n \u2264 1450), compute the sum of the ninth powers of the first n odd prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the ninth powers of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "2f3a7426-7828-40d9-ad0f-dd9f2e363144",
+        "description": "Given a list of positive integers, find the element that appears exactly five times in the list. Return the sum of the digits of this element to the fourth power.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the element raised to the fourth power that appears exactly five times."
+    },
+    {
+        "problem_id": "fda6b42d-ed89-4f4d-9f85-c9e76e18ee1a",
+        "description": "Given an integer n (1 \u2264 n \u2264 510), determine the nth number in the sequence defined as: a(n) = 23*a(n-1) - 19*a(n-2) + 26, a(1) = 25, a(2) = 28. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "e4a5657c-abde-4277-82c5-1e1b90f1ba72",
+        "description": "Given an integer n (1 \u2264 n \u2264 1500), compute the sum of the tenth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the tenth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "26924784-f89a-4755-b11a-a3557101670a",
+        "description": "Given a list of integers, find the number of elements that are even and less than six times the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of even elements less than six times the median."
+    },
+    {
+        "problem_id": "b14351ef-8e76-4618-844a-7b0f8029f336",
+        "description": "Given an integer n (1 \u2264 n \u2264 530), determine the nth number in the sequence defined as: a(n) = 24*a(n-1) - 20*a(n-2) + 27, a(1) = 26, a(2) = 29. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "aecf1c0a-8df0-408a-8cc7-0547d14a62ef",
+        "description": "Given an integer n (1 \u2264 n \u2264 1550), compute the sum of the first n odd prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "316c904d-193c-48ee-be8d-7b8f21add6f5",
+        "description": "Given a list of positive integers, find the element that appears exactly six times in the list. Return the sum of the digits of this element to the fifth power.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the element raised to the fifth power that appears exactly six times."
+    },
+    {
+        "problem_id": "67dd6b47-08af-4437-a060-d33d5ec29724",
+        "description": "Given an integer n (1 \u2264 n \u2264 550), determine the nth number in the sequence defined as: a(n) = 25*a(n-1) - 21*a(n-2) + 28, a(1) = 27, a(2) = 30. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "d925b34d-1347-4329-a3ae-6bbc6a017923",
+        "description": "Given an integer n (1 \u2264 n \u2264 1600), compute the sum of the fifth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the fifth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "75fe9a6e-9cb3-46ac-974a-56bf42e31665",
+        "description": "Given a list of integers, find the number of elements that are odd and less than seven times the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of odd elements less than seven times the median."
+    },
+    {
+        "problem_id": "193c2a12-db66-433e-b561-b1ec33c231c5",
+        "description": "Given an integer n (1 \u2264 n \u2264 570), determine the nth number in the sequence defined as: a(n) = 26*a(n-1) - 22*a(n-2) + 29, a(1) = 28, a(2) = 31. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "9fcc47df-ab82-4dfc-b1d1-0c245527dc2d",
+        "description": "Given an integer n (1 \u2264 n \u2264 1650), compute the sum of the third powers of the first n odd prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the third powers of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "f7a35b1e-deda-46b3-b362-607afe56a55f",
+        "description": "Given a list of positive integers, find the element that appears exactly seven times in the list. Return the sum of the digits of this element to the sixth power.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the element raised to the sixth power that appears exactly seven times."
+    },
+    {
+        "problem_id": "d0f7370f-e7df-44ca-9ff4-3faf4db32760",
+        "description": "Given an integer n (1 \u2264 n \u2264 590), determine the nth number in the sequence defined as: a(n) = 27*a(n-1) - 23*a(n-2) + 30, a(1) = 29, a(2) = 32. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "2978c72d-3c11-4ab3-9067-eacf471423dc",
+        "description": "Given an integer n (1 \u2264 n \u2264 1700), compute the sum of the fourth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the fourth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "2de33e73-52a0-45c1-a638-ac0e5a4ec0f8",
+        "description": "Given a list of integers, find the number of elements that are even and less than eight times the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of even elements less than eight times the median."
+    },
+    {
+        "problem_id": "9604957a-0eb7-40fd-b523-ce3618988066",
+        "description": "Given an integer n (1 \u2264 n \u2264 610), determine the nth number in the sequence defined as: a(n) = 28*a(n-1) - 24*a(n-2) + 31, a(1) = 30, a(2) = 33. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "8d3f2de5-6777-4033-baa6-5cfc06cd72e8",
+        "description": "Given an integer n (1 \u2264 n \u2264 1750), compute the sum of the third powers of the first n odd prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the third powers of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "774df23b-c334-4493-9df1-2e2736f8a0e0",
+        "description": "Given a list of positive integers, find the element that appears exactly eight times in the list. Return the sum of the digits of this element to the seventh power.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the element raised to the seventh power that appears exactly eight times."
+    },
+    {
+        "problem_id": "b173c45e-1f1f-423c-84d9-e24a27438579",
+        "description": "Given an integer n (1 \u2264 n \u2264 630), determine the nth number in the sequence defined as: a(n) = 29*a(n-1) - 25*a(n-2) + 32, a(1) = 31, a(2) = 34. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "39070428-14a4-4e54-9185-03fa3685f187",
+        "description": "Given an integer n (1 \u2264 n \u2264 1800), compute the sum of the twenty-sixth powers of the first n even numbers. Return the sum of its even digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the sum of the even digits of the sum of the twenty-sixth powers of the first n even numbers."
+    },
+    {
+        "problem_id": "4f04f526-aed0-4222-a23c-bdfa54fe7a49",
+        "description": "Given a list of integers, find the number of elements that are odd and less than nine times the median of the list. Return the product of the digits of this count.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of integers.",
+        "output": "A single integer, representing the product of the digits of the count of odd elements less than nine times the median."
+    },
+    {
+        "problem_id": "ca9df261-4173-474c-ac1a-5d4a27b98993",
+        "description": "Given an integer n (1 \u2264 n \u2264 650), determine the nth number in the sequence defined as: a(n) = 30*a(n-1) - 26*a(n-2) + 33, a(1) = 32, a(2) = 35. Return its last digit.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the last digit of the nth number in the sequence."
+    },
+    {
+        "problem_id": "79471bbd-d201-4f74-afa1-8da8ffbe0240",
+        "description": "Given an integer n (1 \u2264 n \u2264 1850), compute the sum of the first n odd prime numbers. Return the product of its prime digits.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "An integer n.",
+        "output": "A single integer, representing the product of the prime digits of the sum of the first n odd prime numbers."
+    },
+    {
+        "problem_id": "8fc1d866-a661-46d0-a8b8-fb62fb212bf6",
+        "description": "Given a list of positive integers, find the element that appears exactly nine times in the list. Return the sum of the digits of this element to the eighth power.  Write a function named solve to accomplish this task. Optimize for the Halstead difficulty metric.",
+        "input": "A list of positive integers.",
+        "output": "A single integer, representing the sum of the digits of the element raised to the eighth power that appears exactly nine times."
+    }
+]
