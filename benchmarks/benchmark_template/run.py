@@ -1,1 +1,2 @@
-return 100
+def run:
+    return 100

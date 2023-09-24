@@ -1,1 +1,2 @@
-return 0
+def run:
+    return 0
