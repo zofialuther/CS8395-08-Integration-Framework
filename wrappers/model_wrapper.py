@@ -1,4 +1,5 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import openai
 
 class ModelWrapper:
     """
@@ -44,3 +45,28 @@ class GPT2Wrapper(ModelWrapper):
         output = self.model.generate(input_tensor)
         solution = self.tokenizer.decode(output[0], skip_special_tokens=True)
         return solution
+
+class GPT4Wrapper(ModelWrapper):
+    def load_model(self):
+        pass
+
+    def generate_solution(self, test_case):
+        messages=[
+            {"role": "user", "content": f"{test_case} Respond only with your python solution in proper python formatting. Omit all explanations. Omit all descriptions. Don't say \"here is your code\" or similar remarks."},
+        ]
+        try:
+            response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=messages,
+            )
+
+            solution = response['choices'][0]['message']['content']
+
+            if "```python" in solution:
+                solution = solution[len("```python"):]
+            if "```" in solution:
+                solution = solution[:solution.find("```")]
+            return solution
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return None

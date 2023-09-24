@@ -86,7 +86,7 @@ def run_test_cases(solution_code, test_cases):
     return [sum(results), difficulty]
 
 
-def run(model_wrapper):
+def run_benchmark(model_wrapper):
     # Load the problems from the JSON file
     with open('problems_halstead.json') as f:
         problems = json.load(f)
