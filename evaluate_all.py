@@ -1,7 +1,7 @@
 import os
 import argparse
 import csv
-from wrappers.model_wrapper import ModelWrapper, GPT2Wrapper, GPT4Wrapper  # Assuming these are the available wrappers
+from wrappers.model_wrapper import ModelWrapper, GPT2Wrapper  # Assuming these are the available wrappers
 
 def load_model(model_name):
     """
