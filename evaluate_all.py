@@ -27,7 +27,7 @@ def main(model_name):
         results.append((benchmark, score))
     
     # Save results to a CSV file
-    with open(f"results_{model_name}.csv", "w") as file:
+    with open(f"results/results_{model_name}.csv", "w") as file:
         writer = csv.writer(file)
         writer.writerow(["Benchmark", "Score out of 100"])
         writer.writerows(results)
