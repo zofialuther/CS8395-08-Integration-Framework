@@ -78,7 +78,3 @@ The CSV file has two columns:
 ## Contributing
 
 Contributions to enhance this framework are welcome. Whether it's adding new benchmarks, improving existing ones, adding new models, or improving the documentation, your efforts are appreciated. Please ensure that any added benchmarks or models adhere to the guidelines mentioned above.
-
-## License
-
-[MIT License](LICENSE) or specify any other license you're using.
