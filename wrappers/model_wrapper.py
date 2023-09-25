@@ -1,5 +1,6 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import openai
+import os
 
 class ModelWrapper:
     """
@@ -48,7 +49,8 @@ class GPT2Wrapper(ModelWrapper):
 
 class GPT4Wrapper(ModelWrapper):
     def load_model(self):
-        pass
+        openai.api_key = os.environ["OPENAI_API_KEY"]
+        return
 
     def generate_solution(self, test_case):
         messages=[
